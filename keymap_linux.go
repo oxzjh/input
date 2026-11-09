@@ -1,0 +1,110 @@
+package input
+
+var keymap = map[string]uint16{
+	"Digit0": 0x30, // XK_0
+	"Digit1": 0x31, // XK_1
+	"Digit2": 0x32, // XK_2
+	"Digit3": 0x33, // XK_3
+	"Digit4": 0x34, // XK_4
+	"Digit5": 0x35, // XK_5
+	"Digit6": 0x36, // XK_6
+	"Digit7": 0x37, // XK_7
+	"Digit8": 0x38, // XK_8
+	"Digit9": 0x39, // XK_9
+
+	"KeyA": 0x41, // XK_A
+	"KeyB": 0x42, // XK_B
+	"KeyC": 0x43, // XK_C
+	"KeyD": 0x44, // XK_D
+	"KeyE": 0x45, // XK_E
+	"KeyF": 0x46, // XK_F
+	"KeyG": 0x47, // XK_G
+	"KeyH": 0x48, // XK_H
+	"KeyI": 0x49, // XK_I
+	"KeyJ": 0x4A, // XK_J
+	"KeyK": 0x4B, // XK_K
+	"KeyL": 0x4C, // XK_L
+	"KeyM": 0x4D, // XK_M
+	"KeyN": 0x4E, // XK_N
+	"KeyO": 0x4F, // XK_O
+	"KeyP": 0x50, // XK_P
+	"KeyQ": 0x51, // XK_Q
+	"KeyR": 0x52, // XK_R
+	"KeyS": 0x53, // XK_S
+	"KeyT": 0x54, // XK_T
+	"KeyU": 0x55, // XK_U
+	"KeyV": 0x56, // XK_V
+	"KeyW": 0x57, // XK_W
+	"KeyX": 0x58, // XK_X
+	"KeyY": 0x59, // XK_Y
+	"KeyZ": 0x5A, // XK_Z
+
+	"F1":  0xFFBE, // XK_F1
+	"F2":  0xFFBF, // XK_F2
+	"F3":  0xFFC0, // XK_F3
+	"F4":  0xFFC1, // XK_F4
+	"F5":  0xFFC2, // XK_F5
+	"F6":  0xFFC3, // XK_F6
+	"F7":  0xFFC4, // XK_F7
+	"F8":  0xFFC5, // XK_F8
+	"F9":  0xFFC6, // XK_F9
+	"F10": 0xFFC7, // XK_F10
+	"F11": 0xFFC8, // XK_F11
+	"F12": 0xFFC9, // XK_F12
+
+	"Insert":   0xFF63, // XK_Insert
+	"Home":     0xFF50, // XK_Home
+	"PageUp":   0xFF55, // XK_Page_Up
+	"Delete":   0xFF9F, // XK_Delete
+	"End":      0xFF57, // XK_End
+	"PageDown": 0xFF56, // XK_Page_Down
+
+	"ArrowLeft":  0xFF51, // XK_Left
+	"ArrowUp":    0xFF52, // XK_Up
+	"ArrowRight": 0xFF53, // XK_Right
+	"ArrowDown":  0xFF54, // XK_Down
+
+	"Numpad0": 0xFFB0, // XK_KP_0
+	"Numpad1": 0xFFB1, // XK_KP_1
+	"Numpad2": 0xFFB2, // XK_KP_2
+	"Numpad3": 0xFFB3, // XK_KP_3
+	"Numpad4": 0xFFB4, // XK_KP_4
+	"Numpad5": 0xFFB5, // XK_KP_5
+	"Numpad6": 0xFFB6, // XK_KP_6
+	"Numpad7": 0xFFB7, // XK_KP_7
+	"Numpad8": 0xFFB8, // XK_KP_8
+	"Numpad9": 0xFFB9, // XK_KP_9
+
+	"NumLock":        0xFF7F, // XK_Num_Lock
+	"NumpadDivide":   0xFFAF, // XK_KP_Divide
+	"NumpadMultiply": 0xFFAA, // XK_KP_Multiply
+	"NumpadSubtract": 0xFFAD, // XK_KP_Subtract
+	"NumpadAdd":      0xFFAB, // XK_KP_Add
+	"NumpadDecimal":  0xFFAE, // XK_KP_Decimal
+	"NumpadEnter":    0xFF8D, // XK_KP_Enter
+
+	"Escape":       0xFF1B, // XK_Escape
+	"Backquote":    0x60,   // XK_grave
+	"Minus":        0x2D,   // XK_minus
+	"Equal":        0x3D,   // XK_equal
+	"Backspace":    0xFF08, // XK_BackSpace
+	"Tab":          0xFF09, // XK_Tab
+	"BracketLeft":  0x5B,   // XK_bracketleft
+	"BracketRight": 0x5D,   // XK_bracketright
+	"Backslash":    0x5C,   // XK_backslash
+	"CapsLock":     0xFFE5, // XK_Caps_Lock
+	"Semicolon":    0x3B,   // XK_semicolon
+	"Quote":        0x22,   // XK_quotedbl
+	"Enter":        0xFF0D, // XK_Return
+	"ShiftLeft":    0xFFE1, // XK_Shift_L
+	"Comma":        0x2C,   // XK_comma
+	"Period":       0x2E,   // XK_period
+	"Slash":        0x2F,   // XK_slash
+	"ShiftRight":   0xFFE2, // XK_Shift_R
+	"ControlLeft":  0xFFE3, // XK_Control_L
+	"MetaLeft":     0xFFE7, // XK_Meta_L
+	"AltLeft":      0xFFE9, // XK_Alt_L
+	"Space":        0x20,   // XK_space
+	"AltRight":     0xFFEA, // XK_Alt_R
+	"ControlRight": 0xFFE4, // XK_Control_R
+}
